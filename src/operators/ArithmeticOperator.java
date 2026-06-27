@@ -1,8 +1,15 @@
 package operators;
 
 public class ArithmeticOperator {
-public static void main (String[]args){
+public static void main (String[]args) {
 
+    new Addition();
+    new Substraction();
+    new Multiplication();
+    new Division();
+    new Mod();
+
+}
 }
 class Addition{
     int a1 = 50;
@@ -51,4 +58,4 @@ class Mod{
 
 }
 
-}
+

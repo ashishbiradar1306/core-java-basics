@@ -7,7 +7,7 @@ package basics;
 // Syntax - class_keyword class_name
 
 
-public class Class {
+public class Classes {
 
 }
 
