@@ -1,4 +1,4 @@
-package condtitionalstatements;
+package conditionalstatements;
 
 public class NestedIfElse {
     public static void main(String [] arg){
