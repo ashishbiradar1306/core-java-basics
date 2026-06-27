@@ -1,4 +1,4 @@
-package method.syntax.practice;
+package methods.assignments;
 
 public class ClassTen {
     public static void main(String [] args){

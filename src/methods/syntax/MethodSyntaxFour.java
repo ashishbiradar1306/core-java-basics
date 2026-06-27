@@ -1,4 +1,4 @@
-package methods;
+package methods.syntax;
 
 public class MethodSyntaxFour {
     public static void main(String [] args){

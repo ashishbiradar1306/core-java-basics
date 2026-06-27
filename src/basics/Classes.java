@@ -1,4 +1,4 @@
-package basic.java;
+package basics;
 
 // Syntax For Creating a Main Class
 // Syntax - public_keyword class_keyword class_name

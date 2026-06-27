@@ -1,4 +1,4 @@
-package basic.java;
+package basics;
 
 public class DataTypes {
     byte age = 19;
@@ -9,5 +9,4 @@ public class DataTypes {
     long l = 8010999899l;
     char ch = 'A';
     boolean isItGoingRainToday = true;
-
 }

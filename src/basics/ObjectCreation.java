@@ -1,4 +1,4 @@
-package basic.java;
+package basics;
 
 // Syntax For Object Creation
 // ClassName referenceName/ObjName = new_keyword ClassName();

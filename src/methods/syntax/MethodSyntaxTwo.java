@@ -1,4 +1,4 @@
-package methods;
+package methods.syntax;
 // Method Syntax 2
 // Syntax 2 : Syntax 2 Has A Parameters And void Return_Type
 // static_keyword void_keyword_asAReturnType method_name (parameters/arguments){

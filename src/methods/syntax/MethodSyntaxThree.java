@@ -1,4 +1,4 @@
-package methods;
+package methods.syntax;
 public class MethodSyntaxThree {
     public static void main(String[] args) {
         int value = getNumber();

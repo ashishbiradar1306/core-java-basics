@@ -3,7 +3,7 @@
 // Syntax For Declaration Of A Variable
 // DataType VariableName Value Semicolan
 
-package basic.java;
+package basics;
 
 public class Variables {
 

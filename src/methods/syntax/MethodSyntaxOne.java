@@ -1,4 +1,4 @@
-package methods;
+package methods.syntax;
 
 // Method Syntax one
 // Syntax 1 : Syntax 1 Has A Void Return_Type and No Parameter
