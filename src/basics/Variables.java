@@ -18,7 +18,7 @@ public class Variables {
         double salary; // Here We Define The Variable only
         // salary = 85000.50; //  It Is Correct Only If you define inside a Initializer block means define inside curly braces , methods , constructors !
 
-        {
+      {
                 int age;
                 age = 19;
                 //  This is the correct syntax to initialization and declaration of the variable
