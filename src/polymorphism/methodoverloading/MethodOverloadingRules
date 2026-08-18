@@ -1,0 +1,3 @@
+1) The overloaded method must change the argument list(Number of parameters , data type or sequence of parameters)
+2) We can change the return type of the overloaded method
+3) We can change the access modifier of the overloaded method

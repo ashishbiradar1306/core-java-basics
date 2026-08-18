@@ -1,0 +1,25 @@
+
+
+(Rules of Abstract Class in Java)
+There are the following rules to define an abstract class in Java. They are:
+
+Class must be declared with abstract keyword to make an abstract class.
+You cannot instantiate an abstract class, but you can create objects of its subclasses provided they must implement abstract methods.
+If a class contains at least one abstract method, the class itself must be declared as abstract.
+To use methods declared in an abstract class, it must be extended by a concrete (non-abstract) class, and that class must implement (override) all abstract methods.
+If a new abstract method is added in the abstract class, all non-abstract subclasses which extend that abstract class, must implement the newly added abstract method. If it does not implement all the abstract methods, the class must be declared as abstract.
+If a new instance method is added in the abstract class, all non-abstract subclass which extends that abstract class, is not necessary to implement newly added instance method.
+Inside the abstract class, you can create any number of constructors. If you do not create a constructor, the compiler will create a default constructor.
+
+(Rules of Abstract Method in Java)
+The rules of abstract method to define in an abstract class are:
+
+Abstract method can only be declared inside an abstract class.
+A non-abstract class cannot have an abstract method, whether it is inherited or declared in the program.
+An abstract method must not provide a method body/implementation in the abstract class for which it is defined.
+When overriding an abstract method in a subclass, the method name and signature must match exactly with the one in the abstract class.
+The visibility (access modifier) of the method in the subclass cannot be reduced while overriding abstract method. For example, if the abstract method is declared protected, the subclass cannot override it as private.
+Abstract method cannot be static or final.
+Static methods belong to the class, not an instance, so they cannot be overridden.
+Final methods cannot be overridden, which contradicts the purpose of an abstract method.
+An abstract method cannot be private because it must be implemented in the subclass. If you declare it private, you cannot implement it from outside the class.
