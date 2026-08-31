@@ -10,7 +10,8 @@ public abstract class BankAccountSystem {
     }
     abstract void calculateInterest();
 
-    void deposit(double amount){
+    void deposit(double amount)
+    {
         balance = balance + amount;
     }
 
