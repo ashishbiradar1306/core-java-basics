@@ -7,33 +7,33 @@ public class BankAccount {
     private String accountHolderName;
     private double balance;
 
-    public long getAccountNumber(){
+    public long getAccountNumber() {
         return accountNumber;
     }
 
-    public String getAccountHolderName(){
+    public String getAccountHolderName() {
         return accountHolderName;
     }
 
-    public double getBalance(){
+    public double getBalance() {
         return balance;
     }
 
-    public void setAccountHolderName(String accountHolderName){
-        this.accountHolderName=accountHolderName;
+    public void setAccountHolderName(String accountHolderName) {
+        this.accountHolderName = accountHolderName;
     }
 
     public void deposit(int amount) {
         this.balance += amount;
     }
 
-    public void withdraw(int amount){
+    public void withdraw(int amount) {
         this.balance -= amount;
     }
 }
 
-class clsForObj2{
-    public static void main(String[]args){
+class clsForObj2 {
+    public static void main(String[] args) {
         BankAccount acc1 = new BankAccount();
 
         acc1.setAccountHolderName("Ashish Biradar");
