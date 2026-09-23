@@ -7,7 +7,7 @@ public class Demo {
 }
 
 class Demo2{
-    public static void main(Object [] args1){
+    public static void main(ObjectOne[] args1){
         System.out.println("Main Object[] ");
     }
 }

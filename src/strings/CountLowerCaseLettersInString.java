@@ -1,0 +1,17 @@
+package strings;
+
+// Count lowercase letters
+
+public class CountLowerCaseLettersInString {
+    public static void main(String[] args) {
+        String str = "Java PROGRAMMING Language";
+        int count = 0;
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            if (ch >= 'a' && ch <= 'z') {
+                count++;
+            }
+        }
+        System.out.print("Total number of lowercase letters :" + count);
+    }
+}
