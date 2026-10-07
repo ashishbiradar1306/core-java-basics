@@ -9,7 +9,7 @@ public class ExceptionInInnerTryBlcok {
             try{
                 System.out.println("Inner try block"); // 2
                 System.out.println(10/0);
-            } catch (NullPointerException e) {
+            } catch (Exception e) {
                 System.out.println("Inner catch block");
             }
             System.out.println("Outside of inner try catch block");
