@@ -6,6 +6,8 @@ public class RemoveAllDigits {
     public static void main(String[]args){
         String str = "Java123Programming456";
         String newStr = str.replaceAll("[0-9]", "");
+        String res = str.replaceAll("1","0");
+        System.out.println(res);
         System.out.print(newStr);
     }
 }
